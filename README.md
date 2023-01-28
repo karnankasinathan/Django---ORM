@@ -23,7 +23,7 @@ To develop a Django application to store and retrieve data from a database using
 
 ### STEP 7: Records are added and saved in the table inside the database.
 ## PROGRAM
-
+```
 from django.db import models
 from django.contrib import admin
 # Create your models here.
@@ -37,7 +37,7 @@ class Database(models.Model):
 
 class PatientAdmin(admin.ModelAdmin):
     list_display = ('Patient_id','Patient_name','Patient_age','email','Contact_number')
-
+```
 ## OUTPUT
 
 ![214039613-03f59cbc-0423-4127-b3f6-7a8d33ef59b0](https://user-images.githubusercontent.com/118787064/215154906-a97bf9b2-36d2-467c-8cc0-42004e4aa5eb.jpg)
